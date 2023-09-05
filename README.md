@@ -11,7 +11,7 @@ In this example, end users/clients are allocated a directory. Two subdirectories
 2) assets
 
 
-As their names implies, the configuration YAML would be placed in the former, and any associated assets in the assets directory.
+As their names implies, the configuration YAML would be placed in the former, and any associated assets in the latter.
 
 This would be cloned, whereupon logic to obtain the diff (additions/updates) would be run. Finally, the script (as found in the image) with the conf flag pointing to the cloned yaml file would be run.
 
