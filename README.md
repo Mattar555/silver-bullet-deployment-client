@@ -15,7 +15,7 @@ As their names implies, the configuration YAML would be placed in the former, an
 
 This would be cloned, whereupon logic to obtain the diff (additions/updates) would be run. Finally, the script (as found in the image) with the conf flag pointing to the cloned yaml file would be run.
 
-As an example:
+As an example, here is how the Tekton pipeline could roughly look like:
 
 1) Clone on above repo
 2) Obtain diff (assume new additions were Marwan/conf/conf.yaml and Marwan/assets/asset.yaml)
