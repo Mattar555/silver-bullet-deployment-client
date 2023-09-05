@@ -13,13 +13,14 @@ In this example, end users/clients are allocated a directory. Two subdirectories
 
 As their names implies, the configuration YAML would be placed in the former, and any associated assets in the assets directory.
 
-This would be cloned, some logic to obtain the diff (additions/updates) would be received, and the script with the conf flag pointing to the cloned yaml file (which implicitly points to the cloned assets - it is important the directory structure be retained appropriately)
+This would be cloned, whereupon logic to obtain the diff (additions/updates) would be run. Finally, the script (as found in the image) with the conf flag pointing to the cloned yaml file would be run.
 
 As an example:
 
 1) Clone on above repo
 2) Obtain diff (assume new additions were Marwan/conf/conf.yaml and Marwan/assets/asset.yaml)
-3) Next Tekton task (or step) to copy the above files (from shared workspace say) and run the main file.
+3) Downstream Tekton task (or step) to copy (retaining directory structure)  the above files (from, say, a shared workspace) and run the main file.
+4) (Optional): Notification informing user completion of automation. For instance, a Slack Notification task.
 
 ## Note
 
