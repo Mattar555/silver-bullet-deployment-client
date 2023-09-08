@@ -3,7 +3,7 @@
 
 ## Proposed Structure
 
-This is just for purposes of demonstration. Clients can modify this as they see fit.
+This is for purposes of demonstration. Clients can modify this as they see fit.
 
 In this example, end users/clients are allocated a directory. Two subdirectories exist within the aforementioned directory. They are:
 
