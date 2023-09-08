@@ -45,11 +45,11 @@ wml_credentials:
 
 prj_info:
   # Provide path to your code
-  code_dir: ./example
+  code_dir: ./assets
 
   # main file must site under code_dir. main file can call any dependencies inside subfolders.
   # both ipynb and py are supported
-  main_file: example.py 
+  main_file: hello.py 
 
 
 deployment_info:
