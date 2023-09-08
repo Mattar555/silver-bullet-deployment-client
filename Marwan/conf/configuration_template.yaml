@@ -33,7 +33,7 @@ wml_credentials:
   # region: us-south
 
 
-  # How to find URL
+  # How to find UURL
   #  For CPD as a platform, it is URL that you access CPD
   #  For CPD as a service, please refer to https://cloud.ibm.com/apidocs/machine-learning#endpoint-url:
   #  1. Dallas - https://us-south.ml.cloud.ibm.com
