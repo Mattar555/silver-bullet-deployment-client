@@ -49,7 +49,7 @@ prj_info:
 
   # main file must site under code_dir. main file can call any dependencies inside subfolders.
   # both ipynb and py are supported
-  main_file: hello.py 
+  main_file: example.py 
 
 
 deployment_info:
