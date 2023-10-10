@@ -13,7 +13,7 @@ wml_credentials:
   # Option 1: Using Username and Password           #
   ###################################################
   username: rutvik
-  password: rutvik_ibm
+  password: rutvik
 
   ###################################################
   # Option 2: Using Username and Password           #
@@ -40,7 +40,8 @@ wml_credentials:
   #  2. London - https://eu-gb.ml.cloud.ibm.com
   #  3. Frankfurt - https://eu-de.ml.cloud.ibm.com
   #  4. Tokyo - https://jp-tok.ml.cloud.ibm.com
-  url: https://cpd-cpd47x.anz-vpc-cpd-3d4f8f67f80aab8513fb91608489ed31-0000.au-syd.containers.appdomain.cloud/
+  url: https://cpd-cpd47x.anz-tech-cpd-3d4f8f67f80aab8513fb91608489ed31-0000.au-syd.containers.appdomain.cloud/
+  
   
 
 prj_info:

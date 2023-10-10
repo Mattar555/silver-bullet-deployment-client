@@ -13,7 +13,7 @@ wml_credentials:
   # Option 1: Using Username and Password           #
   ###################################################
   username: rutvik
-  password: rutvik_ibm
+  password: rutvik
 
   ###################################################
   # Option 2: Using Username and Password           #
