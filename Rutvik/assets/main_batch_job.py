@@ -19,7 +19,7 @@ print('Pandas version =', pd.__version__)
 
 ############### Insert your main code ##################
 a = 4
-b = 1
+b = 2
 c = a + b
 print('sum is', c)
 
