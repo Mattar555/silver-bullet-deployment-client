@@ -40,7 +40,7 @@ wml_credentials:
   #  2. London - https://eu-gb.ml.cloud.ibm.com
   #  3. Frankfurt - https://eu-de.ml.cloud.ibm.com
   #  4. Tokyo - https://jp-tok.ml.cloud.ibm.com
-  url: https://cpd-cpd47x.anz-vpc-cpd-3d4f8f67f80aab8513fb91608489ed31-0000.au-syd.containers.appdomain.cloud/
+  url: https://cpd-cpd47x.anz-tech-cpd-3d4f8f67f80aab8513fb91608489ed31-0000.au-syd.containers.appdomain.cloud/
   
 
 prj_info:
@@ -62,7 +62,7 @@ deployment_info:
   # CPD3.5: https://www.ibm.com/docs/en/cloud-paks/cp-data/3.5.0?topic=functions-deployment-spaces#create
   # CPD4.0: https://www.ibm.com/docs/en/cloud-paks/cp-data/4.0?topic=spaces-creating-deployment
   # CPD4.5: https://www.ibm.com/docs/en/cloud-paks/cp-data/4.5.x?topic=spaces-creating-deployment
-  space_id: 7785f6b7-5278-4f49-a613-f2dbe5731a5d
+  space_id: 7e2a5ea4-b02d-4f93-9cd3-30f3b5e6b158
 
   # To create a project space, refer to:
   # CPD3.5: https://www.ibm.com/docs/en/cloud-paks/cp-data/3.5.0?topic=projects-creating-project
