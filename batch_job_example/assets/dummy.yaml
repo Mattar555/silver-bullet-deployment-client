@@ -1,0 +1,22 @@
+deployment_info:
+  code_pkg_name: batch_job_example
+  environment_configuration_variables:
+  - foo=1
+  - bar=2
+  force_2_update: true
+  job_configuration_variables:
+  - key1=value1
+  - key2=value2
+  job_name: automatic_deployment_code_package
+  runtime: Runtime 23.1 on Python 3.10
+  space_id: 7785f6b7-5278-4f49-a613-f2dbe5731a5d
+email_setting:
+  receivers:
+  - rutvik.dave@ibm.com
+  send_email_when_fail: true
+  send_email_when_successful: true
+  sender: rutvik.dave@ibm.com
+  smtp_server: ap.relay.ibm.com
+prj_info:
+  code_dir: ../batch_job_example
+  main_file: main_batch_job.py
