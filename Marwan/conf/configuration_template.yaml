@@ -87,7 +87,7 @@ deployment_info:
 
   # [Optional]
   # If not defined, job name will be code_pkg_name followed with "_job"
-  job_name: hello 
+  # job_name: hello 
 
   # [Optional] Define list of configuration variables in key=value pairs
   # If you have a previously defined job with the same job_name, it will use previously defined cofiguration varaibles to run the job,
