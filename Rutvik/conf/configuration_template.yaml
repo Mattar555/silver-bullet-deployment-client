@@ -40,20 +40,20 @@ wml_credentials:
   #  2. London - https://eu-gb.ml.cloud.ibm.com
   #  3. Frankfurt - https://eu-de.ml.cloud.ibm.com
   #  4. Tokyo - https://jp-tok.ml.cloud.ibm.com
-  url: https://cpd-cpd47x.anz-vpc-cpd-3d4f8f67f80aab8513fb91608489ed31-0000.au-syd.containers.appdomain.cloud/
+  url: https://cpd-cpd47x.anz-vpc-cpd-3d4f8f67f80aab8513fb91608489ed31-0000.au-syd.containers.appdomain.cloud
   
 
 prj_info:
   # Provide path to your code
-  code_dir: ./assets
+  code_dir: ../assets
 
   # main file must site under code_dir. main file can call any dependencies inside subfolders.
   # both ipynb and py are supported
-  main_file: asset.py 
+  main_file: main_batch_job.py
 
 
 deployment_info:
-  code_pkg_name: example
+  code_pkg_name: deployment_automaion
 
   # Provide either a space_id or a project_id, depending on where you want to run the job, see read me for what types of files
   # are supported in each deployment type. If both space_id and project_id are provided, space_id will take precedent
@@ -72,7 +72,7 @@ deployment_info:
 
   # True: replace deployment if same deployment name has been found
   # False: quit the deployment if same deployment name has been found
-  force_2_update: True   # default value: False
+  force_2_update: False   # default value: False
 
   # Define runtime
   # Support customised runtime and default runtime
@@ -86,7 +86,7 @@ deployment_info:
 
   # [Optional]
   # If not defined, job name will be code_pkg_name followed with "_job"
-  job_name: helloeleole 
+  # job_name: your_job_name
 
   # [Optional] Define list of configuration variables in key=value pairs
   # If you have a previously defined job with the same job_name, it will use previously defined cofiguration varaibles to run the job,
